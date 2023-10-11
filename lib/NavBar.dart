@@ -32,17 +32,17 @@ class NavBar  extends StatelessWidget {
           ),
            ListTile(
               leading: Icon(Icons.favorite),
-              title: Text("favorites"),
+              title: Text("Favorites"),
               onTap: () => print("Fav"),
               ),  
            ListTile(
               leading: Icon(Icons.share),
-              title: Text("share"),
+              title: Text("Share"),
               onTap: () => print("Fav"),
               ),  
            ListTile(
               leading: Icon(Icons.policy),
-              title: Text("policy"),
+              title: Text("Policy"),
               onTap: () => print("Fav"),
               ),  
            ListTile(
@@ -52,12 +52,12 @@ class NavBar  extends StatelessWidget {
               ),  
            ListTile(
               leading: Icon(Icons.description),
-              title: Text("description"),
+              title: Text("Description"),
               onTap: () => print("Fav"),
               ),  
            ListTile(
               leading: Icon(Icons.exit_to_app),
-              title: Text("Extit"),
+              title: Text("Exit"),
               onTap: () => print("Fav"),
               )
         ],
